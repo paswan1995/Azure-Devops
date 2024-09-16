@@ -5,7 +5,7 @@
   * This software allows 
        * to have versions for every change done.
        * multiple developers to parallel work/contribute 
-       * handeles release/different customers by branching
+       * handles release/different customers by branching
  
   * Terms: 
        
@@ -70,5 +70,10 @@
     * ssh/git
        * key based authentication 
         ![preview](images/12.png)   
-        ![preview](images/16.png) 
+        ![preview](images/16.png)
+        ![preview](images/17.png) 
+        ![preview](images/18.png)
+        ![preview](images/19.png)
+        ![alt text](images/20.png)
+        
         
