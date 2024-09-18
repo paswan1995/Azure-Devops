@@ -13,6 +13,7 @@
         * Agents list 
         * azure devops microsoft hosted agents:
             * refer: https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/hosted?view=azure-devops&tabs=yaml 
+            * 
         ![preview](images/23.png)
 
     * Self Hosted Agents 
@@ -58,11 +59,22 @@
    * install jdk 17 
    * install maven 3.9.6
  * configure this server as self hosted agents in azure devops 
+   * refer: https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/linux-agent?view=azure-devops 
    * Navigate to Agent pools, 
    * select default and then continue 
    * we need to create a Personal Access Token 
    * Post Configuration 
     ![preview](images/24.png)
+
+    ```
+    create linux vm
+    wget https://vstsagentpackage.azureedge.net/agent/3.243.1/vsts-agent-linux-x64-6.281.1.tar.gz    
+    tar -xvzf vsts-agent-linux-x64-6.281.1.tar.gz   
+    mkdir agent_anil && cd agent_anil
+    ./config.sh
+    ./run.sh
+    ```
+
  * Next steps: 
    * YAML 
    * Pipeline as code 
